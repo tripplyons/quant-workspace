@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# quant-workspace local keys
+keys/*
+!keys/*.example
+
+# quant-workspace local data
+data/*/*
+!data/*/.gitkeep
+
+# quant-workspace local strategies
+strategies/*
+!strategies/example.py
