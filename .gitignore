@@ -138,8 +138,10 @@ data/*/*
 
 # quant-workspace local strategies
 strategies/*
+!strategies/__init__.py
 !strategies/EXAMPLE_*
-!strategies/indicators
+strategies/indicators/*
+!strategies/indicators/__init__.py
 !strategies/indicators/EXAMPLE_*
 
 # quant-workspace plots

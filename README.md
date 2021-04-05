@@ -1,5 +1,5 @@
 # Quant Workspace
-An organized way for me to develop and test quantitative trading strategies.
+An organized way to develop and test quantitative trading strategies.
 
 ![Screenshot of a backtest](plots/EXAMPLE_MACD_returns.png)
 
@@ -11,11 +11,11 @@ Every time I worked on a strategy, I used to make a new folder and do everything
 
 Features:
 
-- Storing API keys
-- Downloading trading data
+- Downloading trading data (stocks and cryptocurrencies)
 - Backtesting strategies against data
+- Storing API keys
 
 Files:
 
 - An example indicator, strategy, and backtest. They are not viable for real trading, but they are included to show how quant-workspace works.
-- API keys, data files, and indicators and strategies are excluded from the repo by its `.gitignore`
+- Local API keys, data files, indicators, strategies, backtests, and plots are excluded from the repo by its `.gitignore`
