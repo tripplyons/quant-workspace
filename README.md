@@ -3,14 +3,19 @@ An organized way to develop and test quantitative trading strategies
 
 ![Screenshot of a backtest](plots/EXAMPLE_MACD_returns.png)
 
+## How do I use it?
+
+See [the docs](docs/index.md).
+
 ## What is included?
 
 **Features:**
 
 - Downloading trading data (stocks and cryptocurrencies)
-- Backtesting strategies against data
+- Backtesting strategies and parameters against data
 - One workspace organized into indicators, strategies, backtests, data, data downloaders, and plots
 - Storing API keys
+- Useful metrics
 
 **Files:**
 
