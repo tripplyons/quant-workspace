@@ -130,12 +130,21 @@ dmypy.json
 
 # quant-workspace local keys
 keys/*
-!keys/*.example
+!keys/EXAMPLE_*
 
 # quant-workspace local data
 data/*/*
-!data/*/.gitkeep
+!data/*/EXAMPLE_*
 
 # quant-workspace local strategies
 strategies/*
-!strategies/example.py
+!strategies/EXAMPLE_*
+!strategies/indicators
+!strategies/indicators/EXAMPLE_*
+
+# quant-workspace plots
+plots/*
+!plots/EXAMPLE_*
+
+# Mac .DS_Store
+.DS_Store
