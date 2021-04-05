@@ -144,6 +144,10 @@ strategies/indicators/*
 !strategies/indicators/__init__.py
 !strategies/indicators/EXAMPLE_*
 
+# quant-workspace backtests
+backtests/*
+!backtests/EXAMPLE_*
+
 # quant-workspace plots
 plots/*
 !plots/EXAMPLE_*

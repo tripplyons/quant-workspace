@@ -1,7 +1,7 @@
 # Quant Workspace
 An organized way to develop and test quantitative trading strategies
 
-![Screenshot of a backtest](plots/EXAMPLE_MACD_returns.png)
+![Screenshot of a backtest](plots/EXAMPLE_MACD.png)
 
 ## How do I use it?
 
@@ -19,8 +19,8 @@ See [the docs](docs/index.md).
 
 **Files:**
 
-- An example indicator, strategy, backtest, data file, and plot (They are not that viable for real trading, but they are included to show how quant-workspace works.)
-- Local API keys, data files, indicators, strategies, backtests, and plots are excluded from the repo by its `.gitignore`
+- An example indicator, strategy, backtest style, backtest, data file, and plot (They are not that viable for real trading, but they are included to show how quant-workspace works.)
+- Non-example local files are excluded from the repo by its `.gitignore`
 
 ## Why?
 
